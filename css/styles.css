@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.promo {
+  height: 800px;
+  background: url("../img/bg.png") center center / cover no-repeat;
+}
+
+.logo .logo_img {
+  display: block;
+  margin: 0 auto;
+}
