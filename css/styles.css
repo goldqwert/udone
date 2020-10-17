@@ -141,7 +141,7 @@ h1 {
 }
 
 .waiting {
-  height: 604px;
+  min-height: 604px;
   background-color: #efefef;
   padding: 85px 0 75px 0;
 }
@@ -202,4 +202,222 @@ h1 {
 .waiting .waiting_wrapper .waiting_item .waiting_img {
   width: 100%;
   height: 201px;
+}
+
+.optimization {
+  position: relative;
+  min-height: 550px;
+  padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+  margin-left: 391px;
+  color: #299cbd;
+  font-family: "Roboto";
+  font-size: 29px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+  margin-top: 25px;
+  margin-left: 391px;
+  color: #4a4a4a;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.optimization .optimization_text span {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.optimization .optimization_img {
+  top: 48px;
+  left: 48px;
+  position: absolute;
+  z-index: -1;
+}
+
+.finish {
+  min-height: 447px;
+  background: url("../img/learning.jpg") center center / cover no-repeat;
+  padding: 86px 0 79px 0;
+}
+
+.finish .finish_header {
+  color: #efefef;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.finish .finish_divider {
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+  margin: 0 auto;
+  margin-top: 23px;
+}
+
+.finish .finish_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+}
+
+.finish .finish_wrapper .finish_item {
+  display: flex;
+  width: 204px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 115px;
+  height: 115px;
+  background-color: #b4e2ff;
+  border-radius: 50%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  color: #efefef;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.sign_up {
+  min-height: 628px;
+  background-color: #efefef;
+  padding: 86px 0 86px 0;
+}
+
+.sign_up .sign_up_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign_up .sign_up_wrapper .sign_up_descr {
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 43px;
+  text-align: center;
+  margin-top: 42px;
+}
+
+.sign_up .sign_up_wrapper .sign_up_button {
+  width: 313px;
+  height: 72px;
+  box-shadow: inset 0 -5px 0 rgba(0, 0, 0, 0.18);
+  border: 4px solid rgba(0, 0, 0, 0.11);
+  background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
+  color: #ffffff;
+  font-family: "Roboto Condensed";
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.webinar {
+  min-height: 515px;
+  padding: 89px 0 64px 0;
+}
+
+.webinar .webinar_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.webinar .webinar_wrapper .webinar_title {
+  color: #252525;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 37px;
+}
+
+.webinar .webinar_wrapper .webinar_date {
+  color: #299cbd;
+  font-family: "Roboto - Black";
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+.webinar .webinar_wrapper .webinar_text {
+  color: #4a4a4a;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.footer {
+  background-color: #1a1a1a;
+  min-height: 166px;
+  padding: 61px 0 69px 0;
+}
+
+.footer .footer_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer .footer_wrapper .footer_block,
+.footer .footer_wrapper .footer_support,
+.footer .footer_wrapper .footer_number {
+  color: #888888;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+.footer .footer_wrapper .footer_number {
+  margin-top: 12px;
 }
