@@ -4,6 +4,15 @@
   padding: 0;
 }
 
+@font-face {
+   font-family: "Roboto";
+  src: url("../fonts/Roboto-Black.ttf") format("truetype");
+}
+
+html {
+   font-family: "Roboto";: "Roboto-Black", sans-serif;
+}
+
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -22,7 +31,7 @@
 
 .logo .logo_text {
   color: #ffffff;
-  font-family: "Roboto";
+   font-family: "Roboto";
   font-size: 15px;
   font-weight: 500;
   font-style: normal;
@@ -35,7 +44,7 @@
 
 .title {
   color: #f9bf3b;
-  font-family: "Roboto-Black";
+   font-family: "Roboto";
   font-size: 41px;
   font-weight: 400;
   font-style: normal;
@@ -57,7 +66,7 @@ h1 {
 
 .simple .title_big {
   color: #ffffff;
-  font-family: "Roboto - Black";
+   font-family: "Roboto";
   font-size: 80px;
   font-weight: 400;
   font-style: normal;
@@ -76,7 +85,7 @@ h1 {
 
 .promo .promo_text {
   color: #ffffff;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 21px;
   font-weight: 300;
   font-style: normal;
@@ -88,7 +97,7 @@ h1 {
 
 .promo .promo_text_free {
   color: #f9bf3b;
-  font-family: "Roboto - Bold";
+   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
@@ -105,7 +114,7 @@ h1 {
   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
   color: #ffffff;
-  font-family: "Roboto Condensed";
+   font-family: "Roboto";
   font-size: 21px;
   font-weight: 400;
   font-style: normal;
@@ -123,7 +132,7 @@ h1 {
 
 .more .more_text {
   color: #ffffff;
-  font-family: "Roboto - Thin";
+   font-family: "Roboto";
   font-size: 15px;
   font-weight: 400;
   font-style: normal;
@@ -148,7 +157,7 @@ h1 {
 
 .waiting .waiting_header {
   color: #252525;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
@@ -168,7 +177,7 @@ h1 {
 
 .waiting .waiting_subheader {
   color: #4a4a4a;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 23px;
   font-weight: 400;
   font-style: normal;
@@ -190,7 +199,7 @@ h1 {
 .waiting .waiting_wrapper .waiting_item .waiting_descr {
   width: 354px;
   color: #4a4a4a;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
@@ -213,7 +222,7 @@ h1 {
 .optimization .optimization_header {
   margin-left: 391px;
   color: #299cbd;
-  font-family: "Roboto";
+   font-family: "Roboto";
   font-size: 29px;
   font-weight: 400;
   font-style: normal;
@@ -225,7 +234,7 @@ h1 {
   margin-top: 25px;
   margin-left: 391px;
   color: #4a4a4a;
-  font-family: "Roboto";
+   font-family: "Roboto";
   font-size: 17px;
   font-weight: 300;
   font-style: normal;
@@ -233,7 +242,7 @@ h1 {
 }
 
 .optimization .optimization_text span {
-  font-family: "Roboto";
+   font-family: "Roboto";
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
@@ -254,7 +263,7 @@ h1 {
 
 .finish .finish_header {
   color: #efefef;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
@@ -296,7 +305,7 @@ h1 {
 
 .finish .finish_wrapper .finish_item .finish_descr {
   color: #efefef;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 17px;
   font-weight: 300;
   font-style: normal;
@@ -320,7 +329,7 @@ h1 {
 
 .sign_up .sign_up_wrapper .sign_up_descr {
   color: #252525;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
@@ -337,7 +346,7 @@ h1 {
   background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
   text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
   color: #ffffff;
-  font-family: "Roboto Condensed";
+   font-family: "Roboto";
   font-size: 21px;
   font-weight: 400;
   font-style: normal;
@@ -361,7 +370,7 @@ h1 {
 
 .webinar .webinar_wrapper .webinar_title {
   color: #252525;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 30px;
   font-weight: 400;
   font-style: normal;
@@ -373,7 +382,7 @@ h1 {
 
 .webinar .webinar_wrapper .webinar_date {
   color: #299cbd;
-  font-family: "Roboto - Black";
+   font-family: "Roboto";
   font-size: 36px;
   font-weight: 400;
   font-style: normal;
@@ -385,7 +394,7 @@ h1 {
 
 .webinar .webinar_wrapper .webinar_text {
   color: #4a4a4a;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 23px;
   font-weight: 400;
   font-style: normal;
@@ -411,7 +420,7 @@ h1 {
 .footer .footer_wrapper .footer_support,
 .footer .footer_wrapper .footer_number {
   color: #888888;
-  font-family: Roboto;
+   font-family: "Roboto";
   font-size: 15px;
   font-weight: 300;
   font-style: normal;
